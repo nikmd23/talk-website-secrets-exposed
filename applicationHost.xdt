@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <system.webServer>
+    <staticContent>
+      <mimeMap fileExtension=".svg" mimeType="image/svg+xml" xdt:Transform="Insert" />
+    </staticContent>
+    <httpCompression>
+      <dynamicTypes>
+        <add mimeType="image/svg+xml" enabled="true" xdt:Transform="Insert" />
+      </dynamicTypes>
+    </httpCompression>
+  </system.webServer>
+</configuration>

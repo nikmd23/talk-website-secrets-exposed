@@ -6,8 +6,8 @@
 - This talk is just going to aim at Web Sites and some of the nooks and crannies of that
 - [What is Web Sites really?](https://github.com/projectkudu/kudu/wiki/Kudu-architecture)
 	- Just IIS and Kudo
-		- Prove it's ISS by doing a remote connection?
-		- Prove it's Windows by RDP'ing?
+		- Prove it's ISS by doing a remote connection
+			- url-to-scm-site:443
 	- Compare to other options?
 	- *The only thing that really 'connects' the Kudu site to the real site is the file system, and that works regardless of what process or machine they each run on.*
 	- Still PAAS
@@ -16,12 +16,24 @@
 - Fast and flexible
 - Customize SCM
 - Customize Build
+	- Create custom build script w/ unit tests?
 - Customize Post Deployment
+	- Demo a phone call?
 
 ## Logging
 - Lots you can do
 - Leverage the existing ecosystem too
 
+
+## Site Extensions
+- What is `applicationHost.config`
+- Demo with `applicationHost.xdt`
+	- Put `outercurve.svg` in :house:/site/wwwroot
+	- Put `applicationHost.xdt` in :house:/site
+- Show off compression at [checkgzipcompression.com](http://checkgzipcompression.com/)
+- Build full example to set the homepage "hero" mascot
+- Mention/show [samples](https://github.com/projectkudu/kudu/wiki/Xdt-transform-samples)
+- Demo Analog HTTP Log Analyzer
 
 ---
 
@@ -65,6 +77,7 @@
   - Logging
 	  - Log Lizard
 	  - [`AppendToLog()`](http://msdn.microsoft.com/en-us/library/system.web.httpresponse.appendtolog%28v=vs.110%29.aspx)
+	  - Is the logging format a W3C standard? Find it and use wikipedia W3C logo
   - Monitoring?
   - WebHook
 	  - Make Phone Ring
