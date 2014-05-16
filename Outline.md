@@ -12,6 +12,8 @@
 	- *The only thing that really 'connects' the Kudu site to the real site is the file system, and that works regardless of what process or machine they each run on.*
 	- Still PAAS
 
+Cover authentication somewhere in here?
+
 ## Deployment is the Killer Feature
 - Fast and flexible
 - Customize SCM
