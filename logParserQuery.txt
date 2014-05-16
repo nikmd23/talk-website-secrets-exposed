@@ -1,0 +1,4 @@
+SELECT to_lowercase(cs-uri-stem), count(*) 
+FROM 'C:\Users\Nik\Desktop\Site Logs\*.log' 
+GROUP BY to_lowercase(cs-uri-stem) 
+ORDER BY count(*) DESC
