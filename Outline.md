@@ -32,7 +32,7 @@ Cover authentication somewhere in here?
 - Demo with `applicationHost.xdt`
 	- Put `outercurve.svg` in :house:/site/wwwroot
 	- Put `applicationHost.xdt` in :house:/site
-- Show off compression at [checkgzipcompression.com](http://checkgzipcompression.com/)
+- [Show off compression](http://www.whatsmyip.org/http-compression-test/)
 - Build full example to set the homepage "hero" mascot
 - Mention/show [samples](https://github.com/projectkudu/kudu/wiki/Xdt-transform-samples)
 - Demo Analog HTTP Log Analyzer
