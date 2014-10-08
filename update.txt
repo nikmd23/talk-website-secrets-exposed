@@ -1,5 +1,0 @@
-Add section on working with the load balancer from
-
-http://azure.microsoft.com/blog/2013/11/18/disabling-arrs-instance-affinity-in-windows-azure-web-sites/
-
-and http://blog.amitapple.com/post/2014/03/access-specific-instance/#.U5m_eygYeJk
